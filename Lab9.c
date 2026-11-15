@@ -328,3 +328,9 @@ int task3(void)
 
     return 0;
 }
+
+int main()
+{
+    setlocale(LC_ALL, "RUS");
+    task1(void); task2(void); task3(void);
+} 
